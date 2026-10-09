@@ -4,13 +4,13 @@ int main(){
     int idade = 0;
     float peso = 0;
 
-    printf("Digite sua idade: ");
+    printf("\n\nDigite sua idade: ");
     scanf("%d", &idade);
 
     printf("Digite seu peso: ");
     scanf("%f", &peso);
-
-    printf("Idade digitada: %d.\n", idade);
-    printf("Peso digitado: %f.\n", peso);
+    printf("-------------------\n");
+    printf("Idade digitada: %d\n", idade);
+    printf("Peso digitado: %.1f\n\n", peso);
 
 }
