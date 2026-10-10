@@ -9,7 +9,7 @@ int main(){
     printf("Digite o segundo numero: ");
     scanf("%d",&num2);
 
-    if(num1 >= 0 && num1 < 23){
+    if(num1 >= 0 && num1 <= 23){
         printf("hora valida!\n");
         valido = 1;
     }else{
