@@ -25,5 +25,5 @@ int main(){
     }else{
         printf("Nao e um numero primo!\n");
     }
-    printf()
+    printf("\n");
 }
