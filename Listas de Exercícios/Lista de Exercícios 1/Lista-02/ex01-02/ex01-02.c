@@ -14,5 +14,5 @@ int main(){
     }
 
     temp = 110 * i;
-    printf("Tempo %d", temp);
+    printf("Tempo %ds\n", temp);
 }
