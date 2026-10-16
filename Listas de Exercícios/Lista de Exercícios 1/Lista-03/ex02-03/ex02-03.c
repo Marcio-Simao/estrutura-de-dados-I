@@ -18,9 +18,6 @@ int main(){
         printf("\nvetor[%dº]: ",i);
         scanf("%d", &vetor[i]);
     }
-    
     m = maior(vetor);
-
     printf("\nMaior número: %d", m);
-    
 }
