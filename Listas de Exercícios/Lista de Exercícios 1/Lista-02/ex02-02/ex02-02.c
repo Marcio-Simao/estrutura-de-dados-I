@@ -8,10 +8,8 @@ int main(){
 
     for (int i = 1; n > soma; i += 2)
     {
-        printf("soma: %d\n", soma);
         soma += i;    
     }
-    printf("O resultado final da soma: %d\n", soma);
     if (soma == n)
     {
         printf("quadrado perfeito\n");   
@@ -20,7 +18,4 @@ int main(){
     {
         printf("Nao e um quadrado perfeito\n");
     }
-    
-    
-
 }
