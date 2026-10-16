@@ -1,17 +1,20 @@
 #include <stdio.h>
 
 int primo(int num){
-    for (int i = 2; i < num - 1; i++)
+    int cont = 0;
+    for (int i = 1; i <= num; i++)
     {
         if (num % i == 0){
-            i == num - 1;
-            return 0;
-        }else{
-            return 1;
+            cont++;
         } 
     }
+    if (cont > 2)
+    {
+        return 0;
+    }else{
+        return 1;
+    }
     
-
 }
 
 int main(){
@@ -21,9 +24,9 @@ int main(){
     scanf("%d",&n);
     r = primo(n);
     if(r == 1){
-        printf("O numero e primo!\n");
+        printf("\nO numero %d é primo!\n",n);
     }else{
-        printf("Nao e um numero primo!\n");
+        printf("\nO numero %d não é primo!\n", n);
     }
     printf("\n");
 }
