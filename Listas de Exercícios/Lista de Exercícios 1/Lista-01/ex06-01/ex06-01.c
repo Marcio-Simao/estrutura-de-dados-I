@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(){
-    int n1, n2, opera;
+    int n1, n2,r, opera;
 
     printf("primeiro numero: ");
     scanf("%d", &n1);
@@ -16,21 +16,20 @@ int main(){
     printf("\n* -> 3"); 
     printf("\n/ -> 4");
     printf("\nEscolha: ");
-    scanf("%d", opera);
+    scanf("%d", &opera);
 
-    switch (opera)
-    {
+    switch (opera){
     case 1:
-        printf("%d + %d = %d", n1,n2, n1 + n2);
+        printf("%d + %d = %d", n1,n2,n1 + n2);
     break;
     case 2:
-        printf("%d + %d = %d", n1,n2, n1 - n2);
+        printf("%d - %d = %d", n1,n2,n1 - n2);
     break;
     case 3:
-        printf("%d + %d = %d", n1,n2, n1 * n2);
+        printf("%d x %d = %d", n1,n2,n1 * n2);
     break;
     case 4:
-        printf("%d + %d = %d", n1,n2, n1 / n2);
+        printf("%d / %d = %d", n1,n2,n1 / n2);
     break;
     default:
         printf("Valor incorreto");
