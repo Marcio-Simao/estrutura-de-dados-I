@@ -12,7 +12,6 @@ int main(){
         m = m / 2;
         i++;
     }
-
     temp = 110 * i;
     printf("Tempo %ds\n", temp);
 }
