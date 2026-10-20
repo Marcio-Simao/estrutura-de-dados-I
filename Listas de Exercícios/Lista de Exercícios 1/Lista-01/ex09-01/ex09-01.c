@@ -15,5 +15,5 @@ int main(){
         }
         i++;
     }
-    printf("O maior número é: %d\n", maior);
+    printf("\nO maior número é: %d\n", maior);
 }
