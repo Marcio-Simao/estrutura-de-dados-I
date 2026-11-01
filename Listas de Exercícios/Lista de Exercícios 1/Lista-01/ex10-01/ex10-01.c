@@ -7,12 +7,6 @@ int main(){
     fgets(nomeCompleto, sizeof(nomeCompleto), stdin);
     
     int tamanho = strlen(nomeCompleto);
-
-    for (int i = 0; i < tamanho; i++)
-    {
-        
-    }
-    
     
     printf("Olá %s", nomeCompleto);
     printf("tem %d", tamanho);
