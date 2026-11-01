@@ -7,5 +7,5 @@ int main(){
     fgets(nomeCompleto, sizeof(nomeCompleto), stdin);
 
     printf("Olá %s", nomeCompleto);
-
+    printf("tem ", );
 }
