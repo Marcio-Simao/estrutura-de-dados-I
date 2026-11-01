@@ -12,6 +12,7 @@ int main(){
        n = n / 10;
     }
 
-    printf("Soma %d", soma);
+    printf("Soma %d \n", soma);
     
+    return 0;
 }
