@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 int main(){
-    float n = 12;
+    int n = 5;
     int rest;
 
     rest = n % 2;
 
-    printf("\n %d \n", rest);
+    printf("\n resto: %d \n", rest);
 
 }
