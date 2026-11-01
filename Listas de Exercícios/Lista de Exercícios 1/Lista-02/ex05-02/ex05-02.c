@@ -11,8 +11,7 @@ int main(){
     {
         int soma = 0;
 
-        for (int c = 1; c < i; c++)
-        {
+        for (int c = 1; c < i; c++){
             if(i % c == 0){
                 soma = soma + c;
             }
