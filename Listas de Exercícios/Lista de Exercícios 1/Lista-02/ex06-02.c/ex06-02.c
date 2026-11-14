@@ -25,7 +25,7 @@ int Soma(int n, int c){
 int main(){
     int count = 100000, k, soma = 0;
 
-    for (int i = 1; i < count; i++)
+    for (int i = 1; i <= count; i++)
     {
         k = QuantosDigitos(i);
         soma = Soma(i, k);  
