@@ -18,6 +18,11 @@ int main(){
     k = QuantosDigitos(num);
     printf("\n O número %d tem %d digitos! \n", num, k);
     
+    for (int i = 0; i < k; i++)
+    {
+        
+    }
+    
     
 
 
