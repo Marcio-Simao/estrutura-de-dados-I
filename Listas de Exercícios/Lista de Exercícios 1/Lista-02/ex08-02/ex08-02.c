@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main(){
     int v1[5], v2[5] = {0, 0, 0, 0, 0};
     int c = 0, repetido = 0;
