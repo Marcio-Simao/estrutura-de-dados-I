@@ -23,4 +23,5 @@ int main(){
             segMaior = v[i];
         }      
     }
+    printf("o segundo maior valor é %d\n", segMaior);
 }
