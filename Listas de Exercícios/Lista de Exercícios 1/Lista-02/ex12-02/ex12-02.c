@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(){
-    int v[5];
+    int v[5], aux, posicao = 0;
 
     for (int i = 0; i < 5; i++){
         printf("%dº Posição: ", i);
@@ -10,10 +10,14 @@ int main(){
 
     for (int i = 0; i < 5; i++){
         if (v[i] != 0){
-            
+            aux = v[posicao];
+            v[posicao] = v[i];
+            v[i] = aux;
+            posicao++; 
         }
-        
     }
-    
+    for (int i = 0; i < 5; i++){
+        printf("%dº Posição: %d \n", i, v[i]);
+    }
     
 }
