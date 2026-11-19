@@ -13,10 +13,13 @@ int main(){
             segMaior = v[i];
             encSegMaior = 1;
         }
-        if ()        {
-            /* code */
+        if (v[i] < maior && v[i] > segMaior){
+            segMaior = v[i];
         }
-        
+        if (v[i] > maior){
+            segMaior = maior;
+            maior = v[i];        
+        }        
     }
     
 
