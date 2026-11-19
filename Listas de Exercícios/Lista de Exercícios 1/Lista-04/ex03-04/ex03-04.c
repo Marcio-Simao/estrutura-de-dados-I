@@ -7,7 +7,8 @@ int *maximo(int *v, int n){
             endMaior = v + i;
         }else if (maior < *(v + i)){
             maior = *(v + i);
-            endMaior = v + 1;
+            endMaior = v + i;
         }
     }
+    return endMaior;
 }
