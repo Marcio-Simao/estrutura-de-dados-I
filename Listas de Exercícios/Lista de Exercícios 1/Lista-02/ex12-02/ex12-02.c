@@ -16,8 +16,8 @@ int main(){
             posicao++; 
         }
     }
+    printf("\n\n");
     for (int i = 0; i < 5; i++){
         printf("%dº Posição: %d \n", i, v[i]);
-    }
-    
+    } 
 }
