@@ -21,6 +21,4 @@ int main(){
             maior = v[i];        
         }        
     }
-    
-
 }
